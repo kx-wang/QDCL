@@ -8,5 +8,8 @@ Quantum Dot Cascade Lasers (QDCLs). The effects of longitudinal-optical (LO) pho
 
    -run script_one_module.m, script_two_modules.m, to calculate the wavefunctions in the z (growth) direction 
    
-   -run 
+   -run script_Radial.m, to calculate the wavefunctions in the radial direction 
+   
+   -sort the quantum states according to their eigen energy by running script_sort_e.m
+   
 2. Run script_main.m to calculate solve the density matrix equations, calculate the gain, and current density.
