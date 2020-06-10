@@ -1,7 +1,7 @@
 # QDCL
 
 This set of MATLAB code calculates the wavefunctions and simulates for the transport properties in THz 
-Quantum Dot Cascade Lasers (QDCLs). The effects of longitudinal-optical (LO) phonons and longitudinal-acoustic (LA) phonons on the transport are included. The transport model used is a time-local density matrix model, within the second-order Born-Markov approximation, also known as the Interaction approach or Redfield equations.
+Quantum Dot Cascade Lasers (QDCLs). The effects of longitudinal-optical (LO) phonons and longitudinal-acoustic (LA) phonons on the transport are included. The transport model used is a time-local density matrix model, within the second-order Born-Markov approximation; this is also known as the Interaction approach or Redfield equations.
 
 # Instructions: 
 1. Calculate the wavefunctions. 
@@ -13,3 +13,6 @@ Quantum Dot Cascade Lasers (QDCLs). The effects of longitudinal-optical (LO) pho
    -sort the quantum states according to their eigen energy by running script_sort_e.m
    
 2. Run script_main.m to calculate solve the density matrix equations, calculate the gain, and current density.
+
+# References: 
+Please see my conference poster in this repository for example results and more details about the model. 
